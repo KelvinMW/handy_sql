@@ -8,4 +8,9 @@ SET name = "NEW NAME"
 WHERE name = "OLD NAME"
 AND type = "COLUMN TYPE"
 
+#change DAte
+  UPDATE gibbonInternalAssessmentColumn
+SET completeDate = "2024-04-11"
+WHERE completeDate = "2024-04-18"
+AND type = "END TERM 2"
 #more
