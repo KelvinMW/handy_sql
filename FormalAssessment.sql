@@ -13,8 +13,10 @@ AND type = "COLUMN TYPE"
 SET completeDate = "2024-04-11"
 WHERE completeDate = "2024-04-18"
 AND type = "END TERM 2"
-
+  
+#update assessment type
 UPDATE gibbonInternalAssessmentColumn
   SET type = "MID TERM 1"
   WHERE type = "CAT 1"
-#more
+
+  #more
