@@ -24,3 +24,9 @@ UPDATE `gibbonInternalAssessmentColumn`
 SET `gibbonInternalAssessmentColumn`.`completeDate` = "2025-02-17"
 WHERE `gibbonInternalAssessmentColumn`.`name` = "NAME"
 AND `gibbonInternalAssessmentColumn`.`description` = "DESCRIPTION MATCH"
+
+#update assessment types
+UPDATE gibbonInternalAssessmentColumn
+SET type = "CAT2"
+WHERE completeDate = "2025-02-17"
+AND name = "CAT 1"
