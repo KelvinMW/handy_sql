@@ -30,3 +30,15 @@ UPDATE gibbonInternalAssessmentColumn
 SET type = "CAT2"
 WHERE completeDate = "2025-02-17"
 AND name = "CAT 1"
+
+#new update
+UPDATE gibbonInternalAssessmentColumn
+SET type = "CAT2"
+WHERE completeDate = "2025-02-18"
+AND name = "CAT 1"
+#name
+UPDATE gibbonInternalAssessmentColumn
+SET name = "CAT 2"
+WHERE completeDate = "2025-02-17"
+AND type = "CAT2"
+
