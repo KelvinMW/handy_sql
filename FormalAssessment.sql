@@ -41,4 +41,8 @@ UPDATE gibbonInternalAssessmentColumn
 SET name = "CAT 2"
 WHERE completeDate = "2025-02-17"
 AND type = "CAT2"
-
+#name
+UPDATE gibbonInternalAssessmentColumn
+SET name = "TRIAL 1"
+WHERE completeDate = "2024-08-25"
+AND type = "TRAIL 1"
