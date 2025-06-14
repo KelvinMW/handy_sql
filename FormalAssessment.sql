@@ -21,9 +21,11 @@ UPDATE gibbonInternalAssessmentColumn
 
   #more
 UPDATE `gibbonInternalAssessmentColumn`
-SET `gibbonInternalAssessmentColumn`.`completeDate` = "2025-02-17"
-WHERE `gibbonInternalAssessmentColumn`.`name` = "NAME"
-AND `gibbonInternalAssessmentColumn`.`description` = "DESCRIPTION MATCH"
+SET `gibbonInternalAssessmentColumn`.`completeDate` = "2025-06-02"
+WHERE `gibbonInternalAssessmentColumn`.`name` = "END TERM THREE EXAMS"
+AND `gibbonInternalAssessmentColumn`.`type` = "END OF ACADEMIC YEAR"
+AND `gibbonInternalAssessmentColumn`.`completeDate` = NULL
+AND `gibbonInternalAssessmentColumn`.`description` = "END TERM 3";
 
 #update assessment types
 UPDATE gibbonInternalAssessmentColumn
