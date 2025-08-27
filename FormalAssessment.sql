@@ -16,6 +16,14 @@ AND type = "COLUMN TYPE"
 SET completeDate = "2024-04-11"
 WHERE completeDate = "2024-04-18"
 AND type = "END TERM 2"
+
+#set date
+UPDATE gibbonInternalAssessmentColumn
+SET completeDate = "2025-08-27"
+WHERE completeDate = NULL
+AND type = "Entry Exam"
+AND name = "YEAR 11 ENTRY EXAM"
+
   
 #update assessment type
 UPDATE gibbonInternalAssessmentColumn
@@ -51,4 +59,5 @@ UPDATE gibbonInternalAssessmentColumn
 SET name = "TRIAL 1"
 WHERE completeDate = "2024-08-25"
 AND type = "TRAIL 1"
+
 
