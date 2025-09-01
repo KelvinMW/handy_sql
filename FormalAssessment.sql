@@ -4,7 +4,12 @@ WHERE completeDate = "YYYY-MM-DD"
 24/08/2025
 DELETE FROM gibbonInternalAssessmentColumn
 WHERE completeDate = "2025-08-24"
-  
+
+DELETE FROM gibbonInternalAssessmentColumn
+WHERE completeDate = "2025-08-31"
+
+31/08/2025
+
 #Rename multiple columns
 UPDATE gibbonInternalAssessmentColumn
 SET name = "NEW NAME"
@@ -59,5 +64,6 @@ UPDATE gibbonInternalAssessmentColumn
 SET name = "TRIAL 1"
 WHERE completeDate = "2024-08-25"
 AND type = "TRAIL 1"
+
 
 
